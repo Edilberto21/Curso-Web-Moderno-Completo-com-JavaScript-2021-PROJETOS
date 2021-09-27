@@ -1,0 +1,23 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: 'RobotoMono-Thin';
+  src: url('./Fonts/RobotoMono-Thin.ttf');
+}
+
+*{
+  font-family: 'RobotoMono-Thin', monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+}
