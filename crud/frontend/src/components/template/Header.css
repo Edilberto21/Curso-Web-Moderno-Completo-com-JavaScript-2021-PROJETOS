@@ -1,0 +1,13 @@
+/* Componente header na classe header. */
+header.header {
+    background-color: #FFF;
+    padding: 0px 15px;
+    overflow: hidden; /* Aparece o React dependendo do tamanho. */
+    white-space: nowrap; /* Não ter perigo de ficar estranho. */
+    box-shadow: var(--shadow); /* Dar um sombramento. Dando um destaque
+    por ter a cor cinza em baixor. */ 
+}
+/* h1 que esteja no componente header na classe header . */
+header.header h1 {
+    font-size: 1.8em;
+}
